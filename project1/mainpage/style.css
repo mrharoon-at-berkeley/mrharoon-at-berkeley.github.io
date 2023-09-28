@@ -1,0 +1,74 @@
+body {
+  width: 1200px;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+#intro {
+    text-align: center;
+}
+ul#table-of-contents {
+    background: url(urban-chaotic-seamless-pattern-swatch-gradient-vector-32018056.jpg); /* Opal color with some transparency */
+    padding: 10px; /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    list-style: none; /* Remove default list bullet points */
+    color: white;
+}
+
+/* Change the display property of li elements to inline-block */
+ul#table-of-contents li {
+    display: inline-block;
+    margin-right: 40px; /* Add some spacing between list items */
+    font-size: 40px;
+}
+
+ul#table-of-contents a {
+    color: white;
+}
+ul#table-of-contents a:hover {
+    color: yellow;
+}
+
+h2 {
+    text-decoration: overline underline;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wallpaper-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust minmax width as needed */
+  justify-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+/* Style for each image with its subscript */
+.image-with-subscript {
+  text-align: center;
+  margin: 0 85px; /* Adjust margin as needed */
+}
+
+a {
+    color: green ; /* Change "blue" to the desired color */
+}
+
+/* To style visited links separately */
+a:visited {
+    color: turquoise; /* Change "purple" to the desired color for visited links */
+}
+
+/* To style links on hover */
+a:hover {
+    color: yellow; /* Change "red" to the desired color on hover */
+}
+
+/* To style active links (when clicked) */
+a:active {
+    color: yellowgreen; /* Change "green" to the desired color for active links */
+}
+
+.sections {
+    padding: 20px;
+}
