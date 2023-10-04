@@ -8,6 +8,16 @@ textarea {
     max-width: 300px;
     max-height: 400px;
 }
+
+#sentForm {
+    display: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
 .border-img {
     width: 100%;
     max-width: 100%;
