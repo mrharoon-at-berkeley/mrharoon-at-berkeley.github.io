@@ -12,26 +12,29 @@
 </head>
 
 <body>
-    <img class = "border-img" src="../mainpage/urban-chaotic-seamless-pattern-swatch-gradient-vector-32018056.jpg" alt="pretty math image">
+    <header>
+        <img class="border-img" src="../mainpage/urban-chaotic-seamless-pattern-swatch-gradient-vector-32018056.jpg"
+            alt="pretty math image">
+    </header>
     <a href="../mainpage/index.html">Back to main page</a>
-    <p> Use this form or email mrharoon@berkeley.edu to contact me.</p>
+    <p id="intro"> Use this form or email mrharoon@berkeley.edu to contact me.</p>
     <div id="form">
         <div id="formChild1">
             <form action="">
-                Name: <input type="text" name="name" id="name"><br>
-                Email: <input type="text" name="email" id="email"><br>
-                What's up? <br> <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
+                <p hidden id="pleaseName" class="error">Please put a name.</p> Name: <input type="text" name="name" id="name"> <br>
+                <p hidden id="pleaseEmail" class="error">Check given email.</p>Email: <input type="text" name="email" id="email"><br>
+                <p hidden id="pleaseMessage" class="error">Please write a message.</p>What's up?  <br> <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
                 <button id="sendButton">Send</button>
             </form>
-        </div>
-        <div id="formChild2">
-            <p hidden>You sen</p>
+
         </div>
 
     </div>
     <a href="../mainpage/index.html">Back to main page</a>
-    <img class = "border-img" src="../mainpage/urban-chaotic-seamless-pattern-swatch-gradient-vector-32018056.jpg" alt="pretty math image">
-
+    <footer>
+        <img class="border-img" src="../mainpage/urban-chaotic-seamless-pattern-swatch-gradient-vector-32018056.jpg"
+            alt="pretty math image">
+    </footer>
 </body>
 
 </html>

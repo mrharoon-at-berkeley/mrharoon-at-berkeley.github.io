@@ -43,3 +43,7 @@ a:hover {
 a:active {
     color: yellowgreen; /* Change "green" to the desired color for active links */
 }
+
+.error {
+    color: red;
+}
