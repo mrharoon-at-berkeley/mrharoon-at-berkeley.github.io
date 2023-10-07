@@ -1,16 +1,4 @@
-const submit = () => {
-  const userName = document.getElementById("name");
-  const userEmail = document.getElementById("email");
-  const userContent = document.getElementById("content");
-  const sendButton = document.getElementById("sendButton");
-  const intro = document.getElementById("intro");
-  const pleaseName = document.getElementById("pleaseName");
-  const pleaseEmail = document.getElementById("pleaseEmail");
-  const pleaseMessage = document.getElementById("pleaseMessage");
-
-  sendButton.addEventListener("click", (result) => {
-    result.preventDefault(); // Prevent form submission
-    alertMessage = "";
+alertMessage = "";
     if (userName.value === "") {
       alertMessage += "ERROR: Missing name. Please give a name.\n";
       pleaseName.removeAttribute("hidden");
@@ -43,6 +31,25 @@ const submit = () => {
     } else {
       alert("Message Sent!");
       location.reload();
+    }
+
+const submit = () => {
+  const userName = document.getElementById("name");
+  const userEmail = document.getElementById("email");
+  const userContent = document.getElementById("content");
+  const sendButton = document.getElementById("sendButton");
+  const intro = document.getElementById("intro");
+  const pleaseName = document.getElementById("pleaseName");
+  const pleaseEmail = document.getElementById("pleaseEmail");
+  const pleaseMessage = document.getElementById("pleaseMessage");
+
+  sendButton.addEventListener("click", (result) => {
+    result.preventDefault(); // Prevent form submission
+    
+    try {
+        await 
+    } catch (e) {
+
     }
   });
 };
